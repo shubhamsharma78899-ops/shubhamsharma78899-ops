@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradDna" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#0E1626"/>
+    </linearGradient>
+
+    <filter id="glowDna" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .hdr-text { font-family: 'SFMono-Regular', Consolas, monospace; font-weight: 700; fill: #D6F24A; font-size: 13px; letter-spacing: 1px; }
+      .node-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #F8FAFC; font-size: 14px; }
+      .node-sub { font-family: 'SFMono-Regular', Consolas, monospace; fill: #94A3B8; font-size: 11px; }
+      .center-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; fill: #D6F24A; font-size: 15px; letter-spacing: 0.5px; }
+      .center-sub { font-family: 'SFMono-Regular', Consolas, monospace; fill: #E2E8F0; font-size: 10px; }
+
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 40; }
+        to { stroke-dashoffset: 0; }
+      }
+      .connector { stroke-dasharray: 6 6; animation: dashFlow 2s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect width="850" height="320" rx="14" fill="url(#bgGradDna)"/>
+  <rect width="848" height="318" x="1" y="1" rx="13" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Card Header -->
+  <text x="30" y="38" class="hdr-text">🧬 DEVELOPER DNA // ARCHITECTURAL PILLARS</text>
+  <line x1="30" y1="50" x2="820" y2="50" stroke="#334155" stroke-width="1"/>
+
+  <!-- Connecting Stream Lines -->
+  <!-- Top Left to Center -->
+  <line x1="220" y1="115" x2="425" y2="175" stroke="#38BDF8" stroke-width="1.5" class="connector" opacity="0.8"/>
+  <!-- Top Right to Center -->
+  <line x1="630" y1="115" x2="425" y2="175" stroke="#818CF8" stroke-width="1.5" class="connector" opacity="0.8"/>
+  <!-- Bottom Left to Center -->
+  <line x1="220" y1="245" x2="425" y2="175" stroke="#D6F24A" stroke-width="1.5" class="connector" opacity="0.8"/>
+  <!-- Bottom Right to Center -->
+  <line x1="630" y1="245" x2="425" y2="175" stroke="#34D399" stroke-width="1.5" class="connector" opacity="0.8"/>
+
+  <!-- CENTRAL CORE NODE -->
+  <g transform="translate(345, 135)">
+    <rect width="160" height="80" rx="10" fill="#0F172A" stroke="#D6F24A" stroke-width="2" filter="url(#glowDna)"/>
+    <text x="80" y="35" class="center-title" text-anchor="middle">CORE ENGINE</text>
+    <text x="80" y="55" class="center-sub" text-anchor="middle">SHUBHAM SHARMA</text>
+  </g>
+
+  <!-- NODE 1: SYSTEMS & ALGORITHMS (Top Left) -->
+  <g transform="translate(40, 75)">
+    <rect width="240" height="80" rx="8" fill="#0B132B" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="20" cy="25" r="5" fill="#38BDF8"/>
+    <text x="35" y="29" class="node-title">01 // Systems &amp; DSA</text>
+    <text x="35" y="49" class="node-sub">Languages: C • C++ • Python</text>
+    <text x="35" y="65" class="node-sub">Focus: Data Structures &amp; Logic</text>
+  </g>
+
+  <!-- NODE 2: WEB STUDIO & FRONTEND (Top Right) -->
+  <g transform="translate(570, 75)">
+    <rect width="240" height="80" rx="8" fill="#0B132B" stroke="#818CF8" stroke-width="1.5"/>
+    <circle cx="20" cy="25" r="5" fill="#818CF8"/>
+    <text x="35" y="29" class="node-title">02 // Studio &amp; Web</text>
+    <text x="35" y="49" class="node-sub">Stack: React 19 • TS • Vite</text>
+    <text x="35" y="65" class="node-sub">Styling: Tailwind CSS</text>
+  </g>
+
+  <!-- NODE 3: AUDIO & AI ENGINES (Bottom Left) -->
+  <g transform="translate(40, 205)">
+    <rect width="240" height="80" rx="8" fill="#0B132B" stroke="#D6F24A" stroke-width="1.5"/>
+    <circle cx="20" cy="25" r="5" fill="#D6F24A"/>
+    <text x="35" y="29" class="node-title">03 // Sound &amp; AI Tech</text>
+    <text x="35" y="49" class="node-sub">Focus: Creative Technology</text>
+    <text x="35" y="65" class="node-sub">Web Audio API • AI Integration</text>
+  </g>
+
+  <!-- NODE 4: CLOUD & INFRASTRUCTURE (Bottom Right) -->
+  <g transform="translate(570, 205)">
+    <rect width="240" height="80" rx="8" fill="#0B132B" stroke="#34D399" stroke-width="1.5"/>
+    <circle cx="20" cy="25" r="5" fill="#34D399"/>
+    <text x="35" y="29" class="node-title">04 // Cloud &amp; Infra Track</text>
+    <text x="35" y="49" class="node-sub">Spec: B.Tech Cloud Computing</text>
+    <text x="35" y="65" class="node-sub">Roadmap: AWS • Azure • APIs</text>
+  </g>
+
+</svg>

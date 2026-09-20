@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradPipe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <style>
+      .pipe-hdr { font-family: 'SFMono-Regular', Consolas, monospace; font-weight: 700; fill: #D6F24A; font-size: 12px; letter-spacing: 1px; }
+      .step-num { font-family: 'SFMono-Regular', Consolas, monospace; font-weight: 800; fill: #38BDF8; font-size: 11px; }
+      .step-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; fill: #F8FAFC; font-size: 12px; }
+      .step-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #94A3B8; font-size: 10px; }
+
+      @keyframes connectorFlow {
+        0% { stroke-dashoffset: 30; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .flow-line { stroke-dasharray: 4 4; animation: connectorFlow 1.5s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="850" height="160" rx="12" fill="url(#bgGradPipe)"/>
+  <rect width="848" height="158" x="1" y="1" rx="11" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="30" y="32" class="pipe-hdr">⚡ BUILD PIPELINE // ENGINEERING CODE OF CONDUCT</text>
+  <line x1="30" y1="42" x2="820" y2="42" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Pipeline Stages -->
+  <g transform="translate(30, 58)">
+    <!-- Stage 1 -->
+    <rect x="0" y="0" width="135" height="75" rx="8" fill="#0B132B" stroke="#38BDF8" stroke-width="1"/>
+    <text x="12" y="22" class="step-num">STAGE 01</text>
+    <text x="12" y="42" class="step-title">Fundamentals</text>
+    <text x="12" y="58" class="step-desc">DSA &amp; Core C/C++</text>
+
+    <!-- Flow Line 1-2 -->
+    <line x1="135" y1="37" x2="165" y2="37" stroke="#38BDF8" stroke-width="1.5" class="flow-line"/>
+
+    <!-- Stage 2 -->
+    <rect x="165" y="0" width="135" height="75" rx="8" fill="#0B132B" stroke="#818CF8" stroke-width="1"/>
+    <text x="177" y="22" class="step-num" fill="#818CF8">STAGE 02</text>
+    <text x="177" y="42" class="step-title">Architect</text>
+    <text x="177" y="58" class="step-desc">React + Web Studio</text>
+
+    <!-- Flow Line 2-3 -->
+    <line x1="300" y1="37" x2="330" y2="37" stroke="#818CF8" stroke-width="1.5" class="flow-line"/>
+
+    <!-- Stage 3 -->
+    <rect x="330" y="0" width="135" height="75" rx="8" fill="#0B132B" stroke="#D6F24A" stroke-width="1"/>
+    <text x="342" y="22" class="step-num" fill="#D6F24A">STAGE 03</text>
+    <text x="342" y="42" class="step-title">Test &amp; Refactor</text>
+    <text x="342" y="58" class="step-desc">Lookahead Clock</text>
+
+    <!-- Flow Line 3-4 -->
+    <line x1="465" y1="37" x2="495" y2="37" stroke="#D6F24A" stroke-width="1.5" class="flow-line"/>
+
+    <!-- Stage 4 -->
+    <rect x="495" y="0" width="135" height="75" rx="8" fill="#0B132B" stroke="#34D399" stroke-width="1"/>
+    <text x="507" y="22" class="step-num" fill="#34D399">STAGE 04</text>
+    <text x="507" y="42" class="step-title">Ship Public</text>
+    <text x="507" y="58" class="step-desc">GitHub &amp; Code</text>
+
+    <!-- Flow Line 4-5 -->
+    <line x1="630" y1="37" x2="660" y2="37" stroke="#34D399" stroke-width="1.5" class="flow-line"/>
+
+    <!-- Stage 5 -->
+    <rect x="660" y="0" width="130" height="75" rx="8" fill="#0B132B" stroke="#F43F5E" stroke-width="1"/>
+    <text x="672" y="22" class="step-num" fill="#F43F5E">STAGE 05</text>
+    <text x="672" y="42" class="step-title">Iterate &amp; Scale</text>
+    <text x="672" y="58" class="step-desc">AI &amp; Cloud Infra</text>
+  </g>
+</svg>

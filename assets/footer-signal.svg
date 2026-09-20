@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradFoot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0E1626"/>
+    </linearGradient>
+
+    <style>
+      .term-prompt { font-family: 'SFMono-Regular', Consolas, monospace; font-weight: 700; fill: #D6F24A; font-size: 13px; }
+      .term-cmd { font-family: 'SFMono-Regular', Consolas, monospace; fill: #F8FAFC; font-size: 13px; }
+      .quote-text { font-family: 'SFMono-Regular', Consolas, monospace; font-weight: 600; fill: #38BDF8; font-size: 12px; letter-spacing: 1px; }
+      .sig-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #94A3B8; font-size: 11px; }
+
+      @keyframes cursorBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor { animation: cursorBlink 1s infinite; fill: #D6F24A; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="850" height="120" rx="12" fill="url(#bgGradFoot)"/>
+  <rect width="848" height="118" x="1" y="1" rx="11" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Content -->
+  <g transform="translate(35, 38)">
+    <text x="0" y="0" class="term-prompt">shubham@tiu-cloud-studio:~$ <tspan class="term-cmd">cat profile.signal</tspan></text>
+    <rect x="310" y="-12" width="8" height="15" class="cursor"/>
+
+    <text x="0" y="32" class="quote-text">BUILDING IN PUBLIC. LEARNING IN PRIVATE. SHIPPING CONSTANTLY.</text>
+    <text x="0" y="55" class="sig-text">— Shubham Sharma // B.Tech CSE (Cloud) @ TIU • shubhamsharma78899-ops</text>
+  </g>
+
+  <!-- Right Signal Graphic -->
+  <g transform="translate(730, 30)">
+    <circle cx="40" cy="30" r="24" fill="#0F172A" stroke="#334155" stroke-width="1.5"/>
+    <path d="M 28 30 Q 34 18, 40 30 T 52 30" fill="none" stroke="#D6F24A" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
