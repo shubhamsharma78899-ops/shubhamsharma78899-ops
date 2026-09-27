@@ -118,10 +118,10 @@ My technical stack evolves across 4 interconnected engineering pillars:
 
 <br/><br/>
 
-<!-- Live GitHub Stats, Streak, and Language Telemetry -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shubhamsharma78899-ops&theme=dark&background=0A0E17&border=1E293B&stroke=D6F24A&ring=D6F24A&fire=D6F24A&currStreakNum=38BDF8&sideNums=94A3B8&sideTitle=94A3B8&dates=64748B" alt="GitHub Streak Stats" height="150" />
-<img src="https://github-readme-stats.vercel.app/api?username=shubhamsharma78899-ops&show_icons=true&theme=dark&bg_color=0A0E17&title_color=D6F24A&text_color=94A3B8&icon_color=38BDF8&border_color=1E293B&hide_border=false" alt="Shubham's GitHub Stats" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhamsharma78899-ops&layout=compact&theme=dark&bg_color=0A0E17&title_color=D6F24A&text_color=94A3B8&border_color=1E293B&hide_border=false" alt="Top Languages" height="150" />
+<!-- Reliable Live GitHub Streak & Profile Summary Cards -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shubhamsharma78899-ops&theme=dark&background=0A0E17&border=1E293B&stroke=D6F24A&ring=D6F24A&fire=D6F24A&currStreakNum=38BDF8&sideNums=94A3B8&sideTitle=94A3B8&dates=64748B" alt="GitHub Streak Stats" height="165" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shubhamsharma78899-ops&theme=2077" alt="Shubham's GitHub Stats" height="165" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shubhamsharma78899-ops&theme=2077" alt="Top Languages" height="165" />
 
 </div>
 
